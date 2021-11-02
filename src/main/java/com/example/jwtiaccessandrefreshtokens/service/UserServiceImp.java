@@ -72,6 +72,7 @@ public class UserServiceImp implements UserService , UserDetailsService {
         user.getRoles().add(role);
     }
 
+
     @Override
     public User getUser(String username) {
         log.info("Fetching user {} ",username);
